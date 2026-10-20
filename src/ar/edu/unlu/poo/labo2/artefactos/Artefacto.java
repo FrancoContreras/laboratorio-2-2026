@@ -1,8 +1,10 @@
 package ar.edu.unlu.poo.labo2.artefactos;
 
+import ar.edu.unlu.poo.labo2.estrategias.EstrategiaDeMejora;
+
 import java.util.Objects;
 
-public class Artefacto {
+public class Artefacto implements EstrategiaDeMejora {
     private final String nombre;
     private int nivelDePoder;
     private final String tipo;
@@ -91,4 +93,11 @@ public class Artefacto {
                 ", tipo='" + tipo + '\'' +
                 '}';
     }
+
+    @Override
+    public void mejorar(Artefacto artefacto) {
+
+    }
+
+
 }

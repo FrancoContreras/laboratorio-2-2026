@@ -11,8 +11,8 @@
 
 # Integrantes del Grupo
 
-- Estudiante 1 (Legajo 1)
-- Estudiante 2 (Legajo 2)
+- Franco C (05)
+- Matias S (28)
 
 ---
 
